@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    height: 100px;
+    box-shadow: 0px 1px 1px lightslategray;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+}
+nav > span {
+    padding-left: 14px;
+}
+h1 {
+    margin: 60px;
+    padding-left: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
